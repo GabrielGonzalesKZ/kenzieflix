@@ -1,0 +1,88 @@
+.container{
+    width: 1280px;
+    height: 720px;
+    background: #121214;
+    border-radius: 12px;
+    margin: 0 auto;
+    max-height: 700px;
+    margin-top: 103px;
+}
+
+
+body{
+    font-family: 'IBM Plex Sans';
+    background: #000000;
+}
+
+nav{
+    padding-left: 272px;
+}
+
+header img{
+    width: 229px;
+    height: 68px;
+    margin: 42px 534px 73px 517px;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-align: center;
+    max-width: 160px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li img{
+    box-sizing: border-box;
+    width: 160px;
+    height: 160px;
+    margin: 61px 26px 16px 0px;
+    border-radius: 8px;
+}
+
+button{
+    box-sizing: border-box;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #121214;
+    width: 206px;
+    height: 50px;
+    margin-left: 300px; 
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+li img:hover{
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+li:hover h2{
+    font-weight: bolder;
+    color: white;
+}
